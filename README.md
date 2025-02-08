@@ -1,31 +1,27 @@
-<<<<<<< HEAD
-# Text Processing Backend
+# AI Text Processing Service
 
-A Flask-based REST API that processes text using GPT-2 for analysis, summarization, and sentiment detection.
+A Flask-based REST API that leverages LLMs to provide intelligent text analysis, including summarization, keyword extraction, and sentiment detection.
 
-## Overview
+## 🚀 Features
 
-This backend service provides text analysis capabilities through a simple REST API. It uses the Hugging Face GPT-2 model to analyze text input and stores processing history in a JSON file.
+- **Text Analysis**: Advanced natural language processing using Large Language Models
+- **Automated Extraction**:
+  - ✍️ Text Summarization
+  - 🔑 Keyword and Named Entity Extraction
+  - 😊 Sentiment Analysis
+- **History Tracking**: Persistent storage of all processed texts
+- **RESTful API**: Clean and simple endpoints
+- **Error Handling**: Robust validation and error management
 
-## Features
-
-- Text analysis using GPT-2
-- Automatic extraction of:
-  - Summary
-  - Keywords
-  - Sentiment
-- Processing history storage and retrieval
-- RESTful API endpoints
-- Input validation
-- Error handling
-
-## API Endpoints
+## 🛠️ API Endpoints
 
 ### POST /process
-Process text and get analysis results.
+Process text input and return analysis results
+- **Input**: JSON payload with `text` field
+- **Returns**: Processed results including summary, keywords, and sentiment
 
-**Request:**
-=======
-# llm_based_project
-Build a Backend System for Text Processing
->>>>>>> 136ff6158c769fd55e7119fca665afbd73a7f89a
+### GET /history
+Retrieve history of processed texts
+- **Returns**: List of all previously processed texts and their results
+
+## ��️ Project Structure 
