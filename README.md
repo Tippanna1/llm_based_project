@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Text Processing Backend
 
 A Flask-based REST API that processes text using GPT-2 for analysis, summarization, and sentiment detection.
@@ -24,3 +25,7 @@ This backend service provides text analysis capabilities through a simple REST A
 Process text and get analysis results.
 
 **Request:**
+=======
+# llm_based_project
+Build a Backend System for Text Processing
+>>>>>>> 136ff6158c769fd55e7119fca665afbd73a7f89a
