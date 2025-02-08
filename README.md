@@ -24,4 +24,4 @@ Process text input and return analysis results
 Retrieve history of processed texts
 - **Returns**: List of all previously processed texts and their results
 
-## ��️ Project Structure 
+## 📦 Project Structure 
